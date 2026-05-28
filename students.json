@@ -1,0 +1,22 @@
+{
+    "Hardik": {
+        "Roll no": 76768,
+        "Marks": {
+            "COA": 72,
+            "DM": 77,
+            "C lang": 70,
+            "Eng": 75,
+            "CN": 71
+        }
+    },
+    "Akkshay": {
+        "Roll no": 76769,
+        "Marks": {
+            "COA": 70,
+            "DM": 76,
+            "C lang": 80,
+            "Eng": 68,
+            "CN": 65
+        }
+    }
+}
