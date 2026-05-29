@@ -59,9 +59,17 @@ while True:
 
         
     elif choice=="3":
-        name=input("Enter student name: ")
-        if name in student:
-            info=student[name]
+        nameOrRollNo=input("Enter student name or Roll number: ")
+        info=None
+        if nameOrRollNo in student:
+            info=student[nameOrRollNo]
+        else:
+            if nameOrRollNo.isdigit():
+                for name, details in student.items():
+                    if details["Roll no"]==int(nameOrRollNo):
+                        info=details
+                        break
+        if info:        
             if not info["Marks"]:
                 print("No marks are recorded")
             else:
